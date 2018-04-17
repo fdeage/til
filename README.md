@@ -24,7 +24,7 @@ variety of languages and technologies.
 
 ### HTML/CSS
 
-* [Access A Value Logged To The Console](chrome/access-a-value-logged-to-the-console.md)
+* [CSS Basics](html_css/css-basics.md)
 
 ---
 
