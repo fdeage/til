@@ -16,10 +16,10 @@ Ex: www.google.com is the FQDN of a node whose name is www, whose parent is goog
 - character set of a DNS label is modified US-ASCII
 
 ## DNS search order
-- check if is it a FQDN, adds the final dot/beginning "http"
-- browser cache
-- `/etc/hosts` file
+- check if it's a FQDN, adds the final dot/beginning "http"
+- check in the browser cache
+- check in the `/etc/hosts` file
 - ISP cache?
-- DNS server
+- ask the DNS server (order can be defined by the user)
 
 [ACM on DNS complexity](https://queue.acm.org/detail.cfm?id=1242499)
