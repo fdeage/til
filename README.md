@@ -28,18 +28,12 @@ variety of languages and technologies.
 
 ---
 
-## Usage
-
-The `.vimrc` file for this project contains a function `CountTILs` that can
-be invoked with `<leader>c`. This will do a substitution count of the
-current number of TILs and display the result in the command tray.
-
 ## About
 
-I shamelessly stole this idea from
-[thoughtbot/til](https://github.com/thoughtbot/til).
+Idea from [thoughtbot/til](https://github.com/thoughtbot/til).
 
-## Other TIL Collections
+
+###  Other TIL Collections
 
 * [Today I Learned by Hashrocket](https://til.hashrocket.com)
 * [jwworth/til](https://github.com/jwworth/til)
