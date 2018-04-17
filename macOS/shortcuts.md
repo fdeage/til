@@ -40,16 +40,17 @@ Holding the `option` key while resizing a corner of a window and it will simulta
 ## Sublime Text
 Key | Action
 --- | ---
-**Cmd + KU**| Uppercase
-**Cmd + KL**| Lowercase
-**alt + Cmd + F**| Replace
-**Cmd + shift + P**| word wrap
-**Cmd + del**| kill beginning of line
-**Ctrl + k**| kill end of line
-**Cmd + Maj + L**| multiselect
-**Cmd + D**| select identical
+**Cmd + KU**|Uppercase
+**Cmd + KL**|Lowercase
+**alt + Cmd + F**|Replace
+**Cmd + shift + P**|Word wrap
+**Cmd + Shift + D**|Duplicate line
+**Cmd + del**|Kill beginning of line
+**Cmd + Maj + L**|Multiselect
+**Cmd + D**|Select identical
 **Cmd + ctrl + H**| -> hash 1.9
-**Cmd + ctrl + Up/Down**| move line
-**Cmd + [ or ]**| indent/unindent current line
-**Cmd +K, Cmd + B**| toggle side bar
-**Cmd + R**| show symbol table, goto symbol
+**Cmd + ctrl + Up/Down**|Move line
+**Cmd + [ or ]**|Indent/unindent current line
+**Cmd + K, Cmd + B**|Toggle side bar
+**Cmd + R**|Show symbol table, goto symbol
+**Ctrl + k**| Kill end of line
