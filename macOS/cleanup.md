@@ -45,6 +45,9 @@ Can be used with `-n` or `--dry-run`
 
 The cleanup will respect any dependencies on old versions that a gem might have, asking you about each as it goes.
 
+## npm
+`npm cache clean [--force]`
+
 ## AppStore updates
 `$TMPDIR../C/com.apple.appstore/` contains a lot of tmp stuff you might not need, check for yourself (several GB to save there).
 
