@@ -7,7 +7,7 @@
 - if the test uses some external resource (network, DB) -> integration test
 - backbone of testing. Code that’s hard to unit test usually has poor design. UT should be the main focus (measured by “code coverage”)
 
-## Integration testing
+## Integration Testing
 - test how components of the system work together to detect interface defects
 - not isolated from other components like UT
 - often slower than unit tests because of the added complexity (might also need some set up or config: setting up of a test database, etc.)
@@ -18,6 +18,7 @@
 - not concerned with intermediate results or side-effects, or any knowledge of the internal working of the system
 - very difficult to write and maintain (views, etc.), usually slower to run: have only the minimum
 
+### Also: Performance Testing
 
 ## The 6 steps of TDD
 1. decide the inputs and outputs

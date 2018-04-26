@@ -1,6 +1,6 @@
 # DNS: TCP vs UDP
 
-- UDP is connexion-less: the nameserver doesn’t keep track of any form of “connexion”
+- UDP is connexion-less: the nameserver doesn’t keep track of any form of “connexion” (like TCP does with handshake)
 - it’s faster since there is no handshake (which means only 1 round-trip vs at least 2 in TCP)
 - If it fails, the user has to re-request the resolution (= reliability lies on the app side)
 - if payload > 512 bytes, there will be at least 2 packets: since reliability also includes order, the user has to use TCP
