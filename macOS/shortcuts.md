@@ -26,6 +26,8 @@ Key | Action
 **Cmd + shift + T**| restore previously closed tab
 __Cmd + \ __| pause js
 **Cmd + K**| clear console
+**opt + Cmd  + U|show source
+
 
 ## Mac
 Key | Action
