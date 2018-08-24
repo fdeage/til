@@ -43,7 +43,7 @@ All modules defined in Elixir are defined inside the main Elixir namespace. Howe
 
 ## Require
 
-Require the module in order to use its macros:  
+Require the module in order to use its macros (but not its functions):
 `require Foo`
 
 ```
@@ -62,7 +62,7 @@ Note that like the alias directive, require is also lexically scoped.
 
 ## Import
 
-Import functions from Foo so they can be called without the `Foo.` prefix:  
+Import functions from Foo so they can be called without the `Foo.` prefix:
 `import Foo`
 
 So it's like `alias`, but even without the module name. In order not to pollute the namespace, it is recommended to specify which with `only`:

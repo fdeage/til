@@ -48,6 +48,8 @@ The cleanup will respect any dependencies on old versions that a gem might have,
 ## npm
 `npm cache clean [--force]`
 
+Cleans `~/.npm/_cacache`
+
 ## AppStore updates
 `$TMPDIR../C/com.apple.appstore/` contains a lot of tmp stuff you might not need, check for yourself (several GB to save there).
 
@@ -116,6 +118,7 @@ In iTunes, `Preferences > Devices > backups` will show you all the backups of ex
 ## Docker
 Try emptying the images in ```~/Library/Containers/com.docker.docker/```
 
+(especially `~/Library/Containers/com.docker.docker/Data/vms/0]> rm Docker.qcow2`)
 
 ## Caches
 
@@ -131,6 +134,9 @@ Try emptying the images in ```~/Library/Containers/com.docker.docker/```
 
 ### Other spots to check
 
+Firefox Cache:
+`~/Library/Caches/Firefox/Profiles/q1iqx8my.default/cache2/entries`
+
 - /System/Library/LaunchDaemons/[Application]
 - /System/Library/LaunchAgents/[Application]
 - /Applications/[Application]
@@ -142,3 +148,18 @@ Try emptying the images in ```~/Library/Containers/com.docker.docker/```
 - ~/Library/LaunchAgents/Application]
 - ~/Library/PreferencePanes/[Application]
 - ~/Library/Saved\ Application\ State/[Application]
+
+## Others
+
+cf. `sudo du -mhc -d 1 /`
+
+### Spotlight
+
+`/.Spotlight-V100`
+Indexing file of the HD, can be disabled with
+
+https://www.mac4ever.com/actu/107136_astuce-comment-effacer-les-donnees-de-spotlight-et-reconstruire-l-index
+
+### Previous system
+
+`./Previous System`
